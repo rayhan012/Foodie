@@ -1,0 +1,57 @@
+
+@media (max-width: 1024px) {
+
+}
+
+/* about section */
+
+@media (max-width: 991px) {
+
+    /* custom classes */
+    .text-content {
+        width: 100%;
+    }
+
+
+
+
+    /* navbar brand */
+
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+
+    /* banner design */
+
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /* about-food type */
+
+    .food-type {
+        padding-top: 8.25rem;
+
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+
+    /* story section */
+
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+    }
+}
