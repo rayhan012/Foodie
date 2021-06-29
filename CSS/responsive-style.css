@@ -12,7 +12,11 @@
         width: 100%;
     }
 
+    /* Testimonial Section */
 
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0;
+    }
 
 
     /* navbar brand */
@@ -54,4 +58,51 @@
         height: auto;
         padding: 3rem 0;
     }
+
+
+    /* Testimonial Section */
+
+    .testimonial-section .carousel-item .carousel-caption p {
+        padding: 0;
+        font-size: 1rem;
+    }
+
+    .testimonial-section .carousel-item .carousel-caption img{
+        padding: 0;
+    }
+
+    /* newsletter */
+
+    .newsletter {
+        width: 75%;
+    }
+
+    .newsletter .main-btn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    /* explore food */
+
+    .explore-food .card .main-btn {
+        margin-bottom: 30px;
+    }
+
 }
+ 
+
+
+    @media (max-width: 330px) {
+
+
+        /* Testimonial section */
+
+        .testimonial-section .carousel-item{
+            padding: 13rem 3.125rem;
+        }
+
+
+
+
+
+    }

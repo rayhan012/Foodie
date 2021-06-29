@@ -64,7 +64,7 @@ body {
 /* Custom Scrollbar */
 
 ::-webkit-scrollbar {
-    width: 0.625rem;
+    width: 0.0625rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -97,8 +97,8 @@ h2 {
 }
 
 h4 {
-    color: var(--secondary-font);
-    font-family: var(--secondary-color);
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
     text-transform: capitalize;
     font-size: 18px;
     font-weight: 800;
@@ -351,4 +351,111 @@ p {
     .explore-food .card span del {
         color: var(--text-grey);
         margin-left: 0.5rem;
+    }
+
+    /* Testimonial Section */
+
+    .testimonial-section {
+        background-color: var(--primary-color);
+    }
+
+    .testimonial-section .carousel-item {
+        margin-top: 2rem;
+        padding: 10rem 3.125rem;
+        background-color: var(--white-color);
+        border-radius: 0.9375rem;
+        text-align: center;
+    }
+
+    .testimonial-section .carousel-item .carousel-caption img {
+        max-width: 5rem;
+        border-radius: 50%;
+        padding: .3125rem;
+    }
+
+    .testimonial-section .carousel-item .carousel-caption p {
+        font-size: 1.3125rem;
+        line-height: 2.0625rem;
+        padding: 0 11% 0.625rem;
+
+    }
+
+    .testimonial-section .carousel-indicators{
+
+        bottom: -2.8125rem;
+    }
+
+    .testimonial-section .carousel-indicators button {
+        width: 15px;
+        height: 15px;
+        outline: none;
+        border-radius: 50%;
+        border: none;
+        margin-right: 1rem;
+        opacity: 0.2;
+
+    }
+
+    .testimonial-section .carousel-indicators button.active {
+        opacity: 1;
+    }
+
+
+    /* FAQ */
+
+    .faq h4 span {
+        color: var(--primary-color);
+        font-size: 1.875rem;
+        margin-right: 0.3125rem;
+    }
+
+
+
+    /* book-food  */
+
+    .book-food {
+        width: 100%;
+        background: url(../images/53.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 4.372rem 0;
+    }
+    
+    /* form control */
+
+    .newsletter {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .newsletter .form-control {
+        height: 3.225rem;
+        padding: 0 1.25rem;
+        font-size:  0.875rem;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        background: transparent;
+        border: 0.1875rem solid var(--text-grey);
+        color: var(--black-color);
+        font-weight: 700;
+    }
+
+    .newsletter .form-control:hover {
+
+        outline: none;
+        box-shadow: none;
+        border-color: var(--primary-color);
+    }
+
+
+
+    /* footer */
+
+    footer {
+        background-color: var(--primary-color)!important ;
+    }
+
+    footer img {
+        border-radius: 10px;
     }
